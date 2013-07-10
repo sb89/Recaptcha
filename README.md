@@ -9,7 +9,7 @@ Laravel 4 Recaptcha Package
 3.  Run `php artisan config:publish sb89/recaptcha`.
 4.  Add your Recaptcha Private and Public keys to `app/config/packages/sb89/recaptcha/config.php`.
 5.  Add a language entry to `app/lang/en/validation.php` ('en' will depend on your language) e.g 
-`'recaptcha'->'Recaptcha is incorrect.'`
+`'recaptcha'=>'Recaptcha is incorrect.'`
 
 ## Usage
 1.  `Form::recaptcha()`
