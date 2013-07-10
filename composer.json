@@ -1,0 +1,25 @@
+{
+    "name": "sb89/recaptcha",
+    "description": "Recaptcha for Laravel 4",
+    "license":"MIT",
+    "keywords": ["laravel","laravel 4", "recaptcha"],
+    "authors": [
+        {
+            "name": "Steven Blake",
+            "email": "s.blake.08@aberdeen.ac.uk"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "illuminate/support": "4.0.x"
+    },
+    "autoload": {
+        "classmap": [
+            "src/migrations"
+        ],
+        "psr-0": {
+            "Sb89\\Recaptcha": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
