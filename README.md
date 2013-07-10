@@ -10,7 +10,7 @@ Laravel 4 Recaptcha Package
 4.  Add your Recaptcha Private and Public keys to `app/config/packages/sb89/recaptcha/config.php`.
 
 ## Usage
-1.  `Form:recaptcha()`
+1.  `Form::recaptcha()`
 2.  Add `'recaptcha_response_field' => 'required|recaptcha'` to your validation rules.
 
 ### Theme
